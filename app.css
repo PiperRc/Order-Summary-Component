@@ -1,0 +1,158 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100vh;
+	align-items: center;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+	width: 90%;
+	border: 1px solid rgb(169, 169, 169);
+	border-radius: 10px;
+}
+
+
+img {
+	width: 100%;
+	display: block;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.order_summary h1 {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	font-weight: 900;
+}
+
+.order_summary p {
+	width: 19rem;
+	text-align: center;
+	margin-left: 0.4rem;
+	font-size: 1rem;
+	font-weight: 100;
+}
+
+
+.paragraph {
+	display: flex;
+	justify-content: center;
+}
+
+
+.annual_plan_outer {
+	display: flex;
+	justify-content: center;
+
+}
+
+.annual_plan {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 90%;
+	border: 1px solid orange;
+	background-color: hsl(225, 100%, 98%);
+	border-radius: 10px;
+	border: 1px solid hsl(225, 100%, 98%);
+}
+
+.annual_plan img {
+	width: 15%;
+}
+
+.annual_plan p {
+	margin-bottom: 0.25rem;
+	margin-top: 0.25rem;
+
+}
+
+.price_plan p:nth-child(1) {
+	font-weight: 900;
+}
+
+.annual_plan a {
+	margin-top: 0.8rem;
+}
+
+.annual_plan a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.buttons {
+	margin-top: 1.5rem;
+	text-align: center;
+}
+
+.buttons button {
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+}
+
+.buttons button:nth-child(1) {
+	width: 90%;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	font-weight: 900;
+	border-radius: 10px;
+}
+
+.buttons button:nth-child(1):hover {
+	background-color: hsl(225, 100%, 94%);
+	cursor: pointer;
+
+}
+
+.buttons button:nth-child(2) {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	border: 0;
+	background-color: white;
+	color: grey;
+}
+
+.buttons button:nth-child(2):hover {
+	color: black;
+	cursor: pointer;
+	font-weight: 900;
+}
+
+.attribution {
+	margin-top: 1rem;
+}
+
+
+@media screen and (min-width: 1235px) {
+
+	.container {
+		width: 30%;
+	}
+
+	.order_summary h1 {
+		font-size: 1.8rem;
+		margin-bottom: 0.25rem;
+	}
+
+	.paragraph p {
+		font-size: 1.1rem;
+		width: 40rem;
+	}
+
+	.annual_plan {
+		justify-content: start;
+	}
+
+	.annual_plan img {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.annual_plan a {
+		padding-left: 80px;
+	}
+}
