@@ -26,8 +26,10 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-
-![screenshot](https://github.com/PiperRc/Order-Summary-Component/blob/main/screenshot.png)
+#### Desktop Screenshot
+![Desktop Screenshot](https://github.com/PiperRc/Order-Summary-Component/blob/main/Screenshots/Desktop%20Screenshot.png)
+#### Mobile Screenshot
+![Mobile Screenshot](https://github.com/PiperRc/Order-Summary-Component/blob/main/Screenshots/mobile%20screenshot.png)
 
 ### Links
 
@@ -46,16 +48,39 @@ Users should be able to:
 
 
 ### What I learned
-Normally, I will use Chrome Dev Tools to preview my code. However, this time I used firefox. Reason being, the mobile display on firefox was more accurate to what was displayed on my actual cellphone. However, the desktop site did not appear the way I wanted on chrome desktop, but it did on firefox.
+I restarted this challenge. This time I did a mini draft of the containers instead of starting the jsut starting it from scratch. My draft looked like this: 
+
+div:container
+
+->>div:main content-> width of main content:95%, the main content is centered
+
+  ->>div1
+      ->>image 
+
+  ->div2
+      ->>h1
+      -->p
 
 
-To see how you can add code snippets, see below:
+   
+  ->div3
+       ->>image
+       -->details
+       -->link
+
+
+  ->>button
+
+  -->link
+  
+  Doing this helped me tremendously compared to my previous attempt
+
 
 
 
 ### Continued development
 
-I need to do more work on responsive units and responsiveness.
+Continue practicing CSS
 
 
 
